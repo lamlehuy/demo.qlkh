@@ -34,7 +34,7 @@ $CHAT_DISPLAY = 'true';
 $USE_RTE = 'true';
 
 // helpdesk support email id and support name (Example: 'support@vtiger.com' and 'vtiger support')
-$HELPDESK_SUPPORT_EMAIL_ID = 'lam@vtexperts.com';
+$HELPDESK_SUPPORT_EMAIL_ID = 'lamlehuy@yahoo.com';
 $HELPDESK_SUPPORT_NAME = 'your-support name';
 $HELPDESK_SUPPORT_EMAIL_REPLY_ID = $HELPDESK_SUPPORT_EMAIL_ID;
 
@@ -51,8 +51,8 @@ $dbconfig['db_server'] = 'localhost';
 $dbconfig['db_port'] = ':3306';
 $dbconfig['db_username'] = 'root';
 $dbconfig['db_password'] = 'root';
-$dbconfig['db_name'] = 'vt70';
-$dbconfig['db_type'] = 'mysql';
+$dbconfig['db_name'] = 'demo.quanlykhachhang.info';
+$dbconfig['db_type'] = 'mysqli';
 $dbconfig['db_status'] = 'true';
 
 // TODO: test if port is empty
@@ -82,12 +82,12 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/wu/vt70/';
+$site_URL = 'http://localhost/LeGia/demo.quanlykhachhang.info/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = 'E:\PhpCode\wu\vt70/';
+$root_directory = dirname(__FILE__).'/';
 
 // cache direcory path
 $cache_dir = 'cache/';
@@ -162,7 +162,7 @@ $default_user_is_admin = false;
 $disable_persistent_connections = false;
 
 //Master currency name
-$currency_name = 'USA, Dollars';
+$currency_name = 'Vietnam, Dong';
 
 // default charset
 // default charset default value = 'UTF-8' or 'ISO-8859-1'
@@ -186,7 +186,7 @@ $display_empty_home_blocks = false;
 $disable_stats_tracking = false;
 
 // Generating Unique Application Key
-$application_unique_key = '1d1c8fde2adcfaec5c1d791f4a687b59';
+$application_unique_key = 'a548873f0a38b0aaac106ad7956d37c6';
 
 // trim descriptions, titles in listviews to this value
 $listview_max_textlength = 40;
